@@ -12,6 +12,7 @@ export const App = () => {
       {status==='loading' && <LinearLoader/>}
       <Decks />
       <GlobalError />
+      <footer>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, quam.</footer>
     </div>
   )
 }
